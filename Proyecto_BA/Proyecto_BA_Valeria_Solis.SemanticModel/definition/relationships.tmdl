@@ -1,0 +1,5 @@
+relationship aa11140a-be77-4666-996e-1074227bac0b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: data.fecha_vencimiento
+	toColumn: LocalDateTable_8a8d3643-a137-4818-9b86-a972a4da9d98.Date
+

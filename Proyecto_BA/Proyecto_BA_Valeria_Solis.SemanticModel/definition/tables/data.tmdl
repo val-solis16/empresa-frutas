@@ -1,0 +1,131 @@
+table data
+	lineageTag: b74d3e2a-28e6-4840-b974-a3c4d8684980
+
+	column fruta
+		dataType: string
+		lineageTag: ea6eaa4c-68fc-481b-b4d9-acb6bcb811a8
+		summarizeBy: none
+		sourceColumn: fruta
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Costo unitario'
+		dataType: double
+		lineageTag: 01688672-8e1f-48dd-b2eb-9cb7ba3d00c8
+		summarizeBy: sum
+		sourceColumn: Costo unitario
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'precio unitaroio'
+		dataType: double
+		lineageTag: 8eb06a56-91f9-4a21-bdb6-8c0d23a38890
+		summarizeBy: sum
+		sourceColumn: precio unitaroio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Cantidad vendidas'
+		dataType: int64
+		formatString: 0
+		lineageTag: 41a3476f-c99b-49bf-aaa7-d1861e3e8994
+		summarizeBy: sum
+		sourceColumn: Cantidad vendidas
+
+		annotation SummarizationSetBy = Automatic
+
+	column proveedor
+		dataType: string
+		lineageTag: f91d1bdc-11ad-4af8-add3-c953da6bd2c4
+		summarizeBy: none
+		sourceColumn: proveedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_vencimiento
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 859d6b7d-078e-48d9-bd60-0c795a8b3f1f
+		summarizeBy: none
+		sourceColumn: fecha_vencimiento
+
+		variation Variación
+			isDefault
+			relationship: aa11140a-be77-4666-996e-1074227bac0b
+			defaultHierarchy: LocalDateTable_8a8d3643-a137-4818-9b86-a972a4da9d98.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column origen
+		dataType: string
+		lineageTag: ff3dc21b-9385-4587-b327-e660b04cc11d
+		summarizeBy: none
+		sourceColumn: origen
+
+		annotation SummarizationSetBy = Automatic
+
+	column peso
+		dataType: double
+		lineageTag: 6b3948eb-a0ad-49a0-b662-4de132e602de
+		summarizeBy: sum
+		sourceColumn: peso
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column calidad
+		dataType: string
+		lineageTag: 76148167-3622-4c57-adeb-fa9b18c5a0c9
+		summarizeBy: none
+		sourceColumn: calidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Costo total' = data[Costo unitario] * data[Cantidad vendidas]
+		lineageTag: a084e12b-88aa-4db7-9f42-370bd3d042f8
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Ventas totales' = ```
+			data[Cantidad vendidas] * data[precio unitaroio] 
+			```
+		lineageTag: 44a80a3e-9924-4787-a4ad-8d2a4dcf2136
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Ganancias = ```
+			data[Ventas totales] - data[Costo total] 
+			```
+		lineageTag: 86216d45-d3c4-401d-9b4f-e36fd6ceabfc
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition data = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(File.Contents("C:\Users\vales\Downloads\Frutas.xlsx"), null, true),
+				    data_Sheet = Origen{[Item="data",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(data_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"fruta", type text}, {"Costo unitario", type number}, {"precio unitaroio", type number}, {"Cantidad vendidas", Int64.Type}, {"proveedor", type text}, {"fecha_vencimiento", type date}, {"origen", type text}, {"peso", type number}, {"calidad", type text}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+

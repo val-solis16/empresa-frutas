@@ -1,0 +1,1224 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "data.fruta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "fruta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fruta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tipo de fruta": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "data.costo_unitario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Costo unitario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo unitario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.precio_unitaroio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "precio unitaroio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio unitaroio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.cantidad_vendida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Cantidad vendidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad vendida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.proveedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "proveedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "proveedor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.fecha_vencimiento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "fecha_vencimiento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha vencimiento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha_vencimiento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "data.fecha_vencimiento.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "fecha_vencimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.fecha_vencimiento.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "fecha_vencimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha vencimiento año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.fecha_vencimiento.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "fecha_vencimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha vencimiento trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.fecha_vencimiento.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "fecha_vencimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha vencimiento me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.fecha_vencimiento.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "fecha_vencimiento",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha vencimiento día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.origen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "origen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "origen": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Provincia de origen": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "data.peso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "peso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "peso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.calidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "calidad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calidad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.costo_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Costo total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "costo aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "costo overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "data.ventas_totale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Ventas totales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ventas totale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "venta totale": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "data.ganancia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Ganancias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ganancia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "data_fecha_vencimiento_me_has_data_fecha_vencimiento_día": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.fecha_vencimiento.me": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.me"
+			          }
+			        },
+			        "data.fecha_vencimiento.día": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.me"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.día"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "data_fecha_vencimiento_trimestre_has_data_fecha_vencimiento_me": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.fecha_vencimiento.trimestre": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.trimestre"
+			          }
+			        },
+			        "data.fecha_vencimiento.me": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.me"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "data_fecha_vencimiento_año_has_data_fecha_vencimiento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.fecha_vencimiento.año": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.año"
+			          }
+			        },
+			        "data.fecha_vencimiento.trimestre": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.año"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "data_fecha_vencimiento_jerarquía_de_fecha_has_data_fecha_vencimiento_día": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.fecha_vencimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.jerarquía_de_fecha"
+			          }
+			        },
+			        "data.fecha_vencimiento.día": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "data_fecha_vencimiento_jerarquía_de_fecha_has_data_fecha_vencimiento_me": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.fecha_vencimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.jerarquía_de_fecha"
+			          }
+			        },
+			        "data.fecha_vencimiento.me": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "data_fecha_vencimiento_jerarquía_de_fecha_has_data_fecha_vencimiento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.fecha_vencimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.jerarquía_de_fecha"
+			          }
+			        },
+			        "data.fecha_vencimiento.trimestre": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "data_fecha_vencimiento_jerarquía_de_fecha_has_data_fecha_vencimiento_año": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.fecha_vencimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.jerarquía_de_fecha"
+			          }
+			        },
+			        "data.fecha_vencimiento.año": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "data_fecha_vencimiento_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.fecha_vencimiento": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento"
+			          }
+			        },
+			        "data.fecha_vencimiento.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.fecha_vencimiento"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_vencimientos_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "data_has_ganancia": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.ganancia": {
+			          "Target": {
+			            "Entity": "data.ganancia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.ganancia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_ganancias"
+			        }
+			      ]
+			    },
+			    "data_has_ventas_totale": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.ventas_totale": {
+			          "Target": {
+			            "Entity": "data.ventas_totale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.ventas_totale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_ventas_totales"
+			        }
+			      ]
+			    },
+			    "data_has_costo_total": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.costo_total": {
+			          "Target": {
+			            "Entity": "data.costo_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.costo_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_costo_totals"
+			        }
+			      ]
+			    },
+			    "data_has_calidad": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.calidad": {
+			          "Target": {
+			            "Entity": "data.calidad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.calidad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_calidads"
+			        }
+			      ]
+			    },
+			    "data_has_peso": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.peso": {
+			          "Target": {
+			            "Entity": "data.peso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.peso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_pesos"
+			        }
+			      ]
+			    },
+			    "data_has_origen": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.origen": {
+			          "Target": {
+			            "Entity": "data.origen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.origen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_origen"
+			        }
+			      ]
+			    },
+			    "data_has_fecha_vencimiento": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.fecha_vencimiento": {
+			          "Target": {
+			            "Entity": "data.fecha_vencimiento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.fecha_vencimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_fecha_vencimientos"
+			        }
+			      ]
+			    },
+			    "data_has_proveedor": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.proveedor": {
+			          "Target": {
+			            "Entity": "data.proveedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.proveedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_proveedors"
+			        }
+			      ]
+			    },
+			    "data_has_cantidad_vendida": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.cantidad_vendida": {
+			          "Target": {
+			            "Entity": "data.cantidad_vendida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.cantidad_vendida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_cantidad_vendidas"
+			        }
+			      ]
+			    },
+			    "data_has_precio_unitaroio": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.precio_unitaroio": {
+			          "Target": {
+			            "Entity": "data.precio_unitaroio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.precio_unitaroio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_precio_unitaroios"
+			        }
+			      ]
+			    },
+			    "data_has_costo_unitario": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.costo_unitario": {
+			          "Target": {
+			            "Entity": "data.costo_unitario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.costo_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_costo_unitarios"
+			        }
+			      ]
+			    },
+			    "data_has_fruta": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.fruta": {
+			          "Target": {
+			            "Entity": "data.fruta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.fruta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_frutas"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

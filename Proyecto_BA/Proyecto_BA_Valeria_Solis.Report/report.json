@@ -1,0 +1,630 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.61\",\"type\":2}},\"activeSectionIndex\":4,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Parte 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "8ddd9003961d4eed6a1d",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0f168ce615e7a7d02791\",\"layouts\":[{\"id\":0,\"position\":{\"x\":141.90871369294607,\"y\":219.58506224066392,\"z\":9000,\"width\":58.25726141078839,\"height\":71.70124481327801,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"W\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"32pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 71.70,
+          "width": 58.26,
+          "x": 141.91,
+          "y": 219.59,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"2fafce9d10a87875aa5c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":789.3939393939394,\"y\":568.1818181818181,\"z\":5000,\"width\":475.75757575757575,\"height\":116.66666666666666,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'pill'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DEEA3D'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DEEA3D'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 116.67,
+          "width": 475.76,
+          "x": 789.39,
+          "y": 568.18,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"3256444a94b236010e01\",\"layouts\":[{\"id\":0,\"position\":{\"x\":350,\"y\":336.6666666666667,\"z\":12000,\"width\":58.333333333333336,\"height\":71.66666666666667,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 71.67,
+          "width": 58.33,
+          "x": 350.00,
+          "y": 336.67,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"526971bd00cb9249dd7c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":531.8181818181818,\"y\":460.60606060606057,\"z\":7000,\"width\":57.57575757575757,\"height\":71.2121212121212,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Y\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"32pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 71.21,
+          "width": 57.58,
+          "x": 531.82,
+          "y": 460.61,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"531e4b5d017013591633\",\"layouts\":[{\"id\":0,\"position\":{\"x\":899.2531120331951,\"y\":20.91286307053942,\"z\":17000,\"width\":313.6929460580913,\"height\":118.00829875518673,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C8FF6F'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C8FF6F'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 118.01,
+          "width": 313.69,
+          "x": 899.25,
+          "y": 20.91,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"63c407642430ada891ee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":818.1818181818181,\"y\":569.6969696969696,\"z\":16000,\"width\":434.8484848484848,\"height\":115.15151515151514,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Por qué no se cuenta con los medios suficientes para tener ese sistema?\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Porque los medios no se han invertido en tecnología para automatizar ese sistema\",\"textStyle\":{\"fontSize\":\"18.6667px\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DEEA3D'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 115.15,
+          "width": 434.85,
+          "x": 818.18,
+          "y": 569.70,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"782ba3794020ab840abb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":639.3939393939394,\"y\":448.48484848484844,\"z\":15000,\"width\":457.57575757575756,\"height\":96.96969696969697,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Por qué no se cuenta con ese sistema de inventarios?\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Porque no contamos con los suficientes medios para tener ese sistema \",\"textStyle\":{\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DA2E2E'\"}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 96.97,
+          "width": 457.58,
+          "x": 639.39,
+          "y": 448.48,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"8e986750e51d3fe206cb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":720,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"   \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}]},{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2F2DC'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"a0d78dfcc2070510037a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":730.3030303030303,\"y\":590.9090909090909,\"z\":8000,\"width\":59.090909090909086,\"height\":71.2121212121212,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"S\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"32pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 71.21,
+          "width": 59.09,
+          "x": 730.30,
+          "y": 590.91,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"abefb7e0179e683439d2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":456.06060606060606,\"y\":310.60606060606057,\"z\":3000,\"width\":501.5151515151515,\"height\":116.66666666666666,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'pill'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E81FB9'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E81FB9'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 116.67,
+          "width": 501.52,
+          "x": 456.06,
+          "y": 310.61,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"b1fdff6155a05eb789e4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":510.87136929460587,\"y\":103.07053941908714,\"z\":10000,\"width\":41.82572614107884,\"height\":71.70124481327801,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"5\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"32pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 71.70,
+          "width": 41.83,
+          "x": 510.87,
+          "y": 103.07,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"c4e402fed70db89edd57\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.818181818181817,\"y\":80.3030303030303,\"z\":11000,\"width\":418.1818181818182,\"height\":89.39393939393939,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Por qué se retrasó el pedido del cliente?\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Porque algunas frutas del pedido no estaban disponibles\",\"textStyle\":{\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#72EC78'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 89.39,
+          "width": 418.18,
+          "x": 31.82,
+          "y": 80.30,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"cc62fc396c47d4c05b1c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":256.06060606060606,\"y\":201.5151515151515,\"z\":13000,\"width\":422.7272727272727,\"height\":90.9090909090909,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Por qué no estaban disponibles esas frutas?\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Porque hubo una equivocación con la administración del inventario\",\"textStyle\":{\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F3A155'\"}}}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F3A155'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 90.91,
+          "width": 422.73,
+          "x": 256.06,
+          "y": 201.52,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"cd79de6dea6d7d925998\",\"layouts\":[{\"id\":0,\"position\":{\"x\":913.6363636363636,\"y\":34.848484848484844,\"z\":18000,\"width\":284.8484848484848,\"height\":89.39393939393939,\"tabOrder\":18000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Situación: Hubo un retraso en un pedido de frutas para un cliente\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}}}",
+          "filters": "[]",
+          "height": 89.39,
+          "width": 284.85,
+          "x": 913.64,
+          "y": 34.85,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"cf420540826a50725517\",\"layouts\":[{\"id\":0,\"position\":{\"x\":489.3939393939394,\"y\":327.27272727272725,\"z\":14000,\"width\":434.8484848484848,\"height\":89.39393939393939,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"¿Por qué pasó esa equivocación con el inventario?\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Porque no tenemos un sistema de inventarios optimizado\",\"textStyle\":{\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E81FB9'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 89.39,
+          "width": 434.85,
+          "x": 489.39,
+          "y": 327.27,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"dfc42ef9ecd031435183\",\"layouts\":[{\"id\":0,\"position\":{\"x\":616.6666666666666,\"y\":437.8787878787879,\"z\":4000,\"width\":519.6969696969696,\"height\":118.18181818181817,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'pill'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DA2E2E'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DA2E2E'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 118.18,
+          "width": 519.70,
+          "x": 616.67,
+          "y": 437.88,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"ec9ccf777697a021c040\",\"layouts\":[{\"id\":0,\"position\":{\"x\":228.78787878787878,\"y\":190.9090909090909,\"z\":2000,\"width\":478.78787878787875,\"height\":110.6060606060606,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'pill'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F3A155'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F3A155'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 110.61,
+          "width": 478.79,
+          "x": 228.79,
+          "y": 190.91,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"ee6290877062b4414c32\",\"layouts\":[{\"id\":0,\"position\":{\"x\":370,\"y\":336.6666666666667,\"z\":6000,\"width\":58.333333333333336,\"height\":71.66666666666667,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"H\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"32pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 71.67,
+          "width": 58.33,
+          "x": 370.00,
+          "y": 336.67,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"fc48ea10069277413134\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.15151515151515,\"y\":69.69696969696969,\"z\":1000,\"width\":450,\"height\":109.09090909090908,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'pill'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#72EC78'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#72EC78'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 109.09,
+          "width": 450.00,
+          "x": 15.15,
+          "y": 69.70,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2F2DC'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Parte 4",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "92557a614bb42c7a7e82",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"00c8902282003bbf928f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":853.030303030303,\"y\":445.45454545454544,\"z\":4000,\"width\":174.24242424242422,\"height\":125.75757575757575,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"data.proveedor\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"proveedor\"},\"Name\":\"data.proveedor\",\"NativeReferenceName\":\"proveedor\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Proveedor'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A9D8ED'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 125.76,
+          "width": 174.24,
+          "x": 853.03,
+          "y": 445.45,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"13a5e68b4667f4a76a9d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":511.6666666666667,\"y\":0,\"z\":0,\"width\":281.6666666666667,\"height\":35,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Reporte de ventas \",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"14pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"62D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#5DCB5E'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 281.67,
+          "x": 511.67,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"27e339f3535066970235\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1104.9795918367347,\"y\":464.3265306122449,\"z\":5000,\"width\":151.3469387755102,\"height\":236.57142857142856,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"data.origen\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"origen\"},\"Name\":\"data.origen\",\"NativeReferenceName\":\"Origen\"}]},\"columnProperties\":{\"data.origen\":{\"displayName\":\"Origen\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}],\"header\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B2F38C'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 236.57,
+          "width": 151.35,
+          "x": 1104.98,
+          "y": 464.33,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"3ade8727e1944f91462a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":7.936507936507937,\"y\":423.8095238095238,\"z\":2000,\"width\":692.063492063492,\"height\":295.23809523809524,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(data.Ventas totales)\"}],\"Category\":[{\"queryRef\":\"data.fruta\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ventas totales\"}},\"Function\":0},\"Name\":\"Sum(data.Ventas totales)\",\"NativeReferenceName\":\"Ventas totales\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"fruta\"},\"Name\":\"data.fruta\",\"NativeReferenceName\":\"Recuento de fruta\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ventas totales\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#29CA59'\"}}}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Tipo de fruta'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Ventas totales '\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Ventas totales por fruta'\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 295.24,
+          "width": 692.06,
+          "x": 7.94,
+          "y": 423.81,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"cdbbea5114fdedf2437a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":8.333333333333334,\"y\":46.66666666666667,\"z\":1000,\"width\":691.6666666666667,\"height\":360,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"data.fruta\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(data.Costo total)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"fruta\"},\"Name\":\"data.fruta\",\"NativeReferenceName\":\"fruta\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Costo total\"}},\"Function\":0},\"Name\":\"Sum(data.Costo total)\",\"NativeReferenceName\":\"Suma de Costo total\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Costo total\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#29CA59'\"}}}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Tipo de fruta'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Costos totales'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Costo total por fruta'\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 360.00,
+          "width": 691.67,
+          "x": 8.33,
+          "y": 46.67,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"d05af0d029ac11860041\",\"layouts\":[{\"id\":0,\"position\":{\"x\":710,\"y\":48.333333333333336,\"z\":3000,\"width\":558.3333333333334,\"height\":358.33333333333337,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"data.fruta\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(data.Ganancias)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"fruta\"},\"Name\":\"data.fruta\",\"NativeReferenceName\":\"fruta\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ganancias\"}},\"Function\":0},\"Name\":\"Sum(data.Ganancias)\",\"NativeReferenceName\":\"Suma de Ganancias\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ganancias\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Tipo de fruta'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#29CA59'\"}}}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Ganancias'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Ganancias totales por fruta'\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 358.33,
+          "width": 558.33,
+          "x": 710.00,
+          "y": 48.33,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Parte 5",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "c2a17485c42052b62472",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1674500f8e61294b09c5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":730,\"y\":0,\"z\":6000,\"width\":550,\"height\":286.6666666666667,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(data.Ventas totales)\"},{\"queryRef\":\"Sum(data.Costo total)\"}],\"Category\":[{\"queryRef\":\"data.fruta\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ventas totales\"}},\"Function\":1},\"Name\":\"Sum(data.Ventas totales)\",\"NativeReferenceName\":\"Promedio de Ventas totales\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Costo total\"}},\"Function\":1},\"Name\":\"Sum(data.Costo total)\",\"NativeReferenceName\":\"Promedio de Costo total\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"fruta\"},\"Name\":\"data.fruta\",\"NativeReferenceName\":\"Fruta\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ventas totales\"}},\"Function\":1}}}]},\"columnProperties\":{\"data.fruta\":{\"displayName\":\"Fruta\"},\"Sum(data.Ventas totales)\":{\"displayName\":\"Ventas \"},\"Sum(data.Costo total)\":{\"displayName\":\"Costos\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"titleFontSize\":{\"expr\":{\"Literal\":{\"Value\":\"9D\"}}}}}],\"valueAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"titleFontSize\":{\"expr\":{\"Literal\":{\"Value\":\"9D\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E57849'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"fruta\"}},\"Right\":{\"Literal\":{\"Value\":\"'Durazno'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EE5B1C'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"fruta\"}},\"Right\":{\"Literal\":{\"Value\":\"'Sandía'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E571A3'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"fruta\"}},\"Right\":{\"Literal\":{\"Value\":\"'Pitahaya'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ECB67C'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"fruta\"}},\"Right\":{\"Literal\":{\"Value\":\"'Melón'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E4B62E'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"fruta\"}},\"Right\":{\"Literal\":{\"Value\":\"'Granadilla'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#64D51D'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"fruta\"}},\"Right\":{\"Literal\":{\"Value\":\"'Limón'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EBE95E'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"fruta\"}},\"Right\":{\"Literal\":{\"Value\":\"'Banano'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#92EB5E'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"fruta\"}},\"Right\":{\"Literal\":{\"Value\":\"'Pera'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E10918'\"}}}}}},\"selector\":{\"metadata\":\"Sum(data.Costo total)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#2DDF2A'\"}}}}}},\"selector\":{\"metadata\":\"Sum(data.Ventas totales)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Ventas y Costos por Fruta'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 286.67,
+          "width": 550.00,
+          "x": 730.00,
+          "y": 0.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"3afe5ede40975e701089\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":413.33333333333337,\"z\":1000,\"width\":543.3333333333334,\"height\":306.6666666666667,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(data.Ventas totales)\"}],\"Category\":[{\"queryRef\":\"data.proveedor\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ventas totales\"}},\"Function\":0},\"Name\":\"Sum(data.Ventas totales)\",\"NativeReferenceName\":\"Ventas totales\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"proveedor\"},\"Name\":\"data.proveedor\",\"NativeReferenceName\":\"Proveedor\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ventas totales\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(data.Ventas totales)\":{\"displayName\":\"Ventas totales\"},\"data.proveedor\":{\"displayName\":\"Proveedor\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#29CA59'\"}}}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 306.67,
+          "width": 543.33,
+          "x": 0.00,
+          "y": 413.33,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"c8c3883ce1ea22f84b10\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.666666666666668,\"y\":0,\"z\":0,\"width\":610,\"height\":255,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"data.fruta\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(data.Cantidad vendidas)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"fruta\"},\"Name\":\"data.fruta\",\"NativeReferenceName\":\"Tipo de fruta\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Cantidad vendidas\"}},\"Function\":0},\"Name\":\"Sum(data.Cantidad vendidas)\",\"NativeReferenceName\":\"Cantidades vendidas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Cantidad vendidas\"}},\"Function\":0}}}]},\"columnProperties\":{\"data.fruta\":{\"displayName\":\"Tipo de fruta\"},\"Sum(data.Cantidad vendidas)\":{\"displayName\":\"Cantidades vendidas\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"titleFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fillTransparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#29CA59'\"}}}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Fruta más vendida'\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 255.00,
+          "width": 610.00,
+          "x": 11.67,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"d6fd1258ca8b189b9918\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1137.3061224489795,\"y\":324.734693877551,\"z\":5000,\"width\":114.61224489795919,\"height\":117.55102040816327,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"data.calidad\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"calidad\"},\"Name\":\"data.calidad\",\"NativeReferenceName\":\"Calidad\"}]},\"columnProperties\":{\"data.calidad\":{\"displayName\":\"Calidad\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"header\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C8F275'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 117.55,
+          "width": 114.61,
+          "x": 1137.31,
+          "y": 324.73,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"ed9ad6073c8547622b5e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":418.33333333333337,\"y\":248.33333333333334,\"z\":4000,\"width\":375,\"height\":211.66666666666669,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(data.Ganancias)\"}],\"Category\":[{\"queryRef\":\"data.proveedor\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ganancias\"}},\"Function\":0},\"Name\":\"Sum(data.Ganancias)\",\"NativeReferenceName\":\"Suma de Ganancias\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"proveedor\"},\"Name\":\"data.proveedor\",\"NativeReferenceName\":\"Proveedor\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ganancias\"}},\"Function\":0}}}]},\"columnProperties\":{\"data.proveedor\":{\"displayName\":\"Proveedor\"},\"Sum(data.Ganancias)\":{\"displayName\":\"Ganancias\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'RightCenter'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'preferInside'\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Percent of total'\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EE5B1C'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"proveedor\"}},\"Right\":{\"Literal\":{\"Value\":\"'Browsebug'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#92EB5E'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"proveedor\"}},\"Right\":{\"Literal\":{\"Value\":\"'Fliptune'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EBE95E'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"data\"}},\"Property\":\"proveedor\"}},\"Right\":{\"Literal\":{\"Value\":\"'Yakijo'\"}}}}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 211.67,
+          "width": 375.00,
+          "x": 418.33,
+          "y": 248.33,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"f5faa1e56064d05c194d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":686.6666666666667,\"y\":460,\"z\":2000,\"width\":593.3333333333334,\"height\":260,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"funnel\",\"projections\":{\"Category\":[{\"queryRef\":\"data.origen\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(data.Cantidad vendidas)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"origen\"},\"Name\":\"data.origen\",\"NativeReferenceName\":\"Provincia de origen\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Cantidad vendidas\"}},\"Function\":0},\"Name\":\"Sum(data.Cantidad vendidas)\",\"NativeReferenceName\":\"Cantidades vendidas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Cantidad vendidas\"}},\"Function\":0}}}]},\"columnProperties\":{\"data.origen\":{\"displayName\":\"Provincia de origen\"},\"Sum(data.Cantidad vendidas)\":{\"displayName\":\"Cantidades vendidas\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#29CA59'\"}}}}}}}],\"labels\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}}}}],\"categoryAxis\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Tahoma'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Fruta más vendida por Provincia de origen'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 260.00,
+          "width": 593.33,
+          "x": 686.67,
+          "y": 460.00,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Parte 3",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "c97fbb2cd6c3e2d07c08",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"3dba5808ef0624342545\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1279.3650793650793,\"height\":720.6349206349206,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2F2DC'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 720.63,
+          "width": 1279.37,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"4caafc86ab1567e1a77a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":740,\"y\":148.33333333333334,\"z\":14000,\"width\":68.33333333333334,\"height\":128.33333333333334,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"O\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"60pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 128.33,
+          "width": 68.33,
+          "x": 740.00,
+          "y": 148.33,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"657664fb6f822a515c3b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":948.3333333333334,\"y\":393.33333333333337,\"z\":8000,\"width\":113.33333333333334,\"height\":40,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Amenazas\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 113.33,
+          "x": 948.33,
+          "y": 393.33,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"6c1cfe3463eb94ec1800\",\"layouts\":[{\"id\":0,\"position\":{\"x\":740,\"y\":470,\"z\":16000,\"width\":68.33333333333334,\"height\":128.33333333333334,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"A\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"60pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 128.33,
+          "width": 68.33,
+          "x": 740.00,
+          "y": 470.00,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"6de7eb82f5e2073c57d9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":833.3333333333334,\"y\":371.6666666666667,\"z\":4000,\"width\":340,\"height\":326.6666666666667,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#5DCB5E'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"19D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#50A751'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 326.67,
+          "width": 340.00,
+          "x": 833.33,
+          "y": 371.67,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"7f63b7d05645bb576280\",\"layouts\":[{\"id\":0,\"position\":{\"x\":488.33333333333337,\"y\":470,\"z\":15000,\"width\":68.33333333333334,\"height\":128.33333333333334,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"D\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"60pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 128.33,
+          "width": 68.33,
+          "x": 488.33,
+          "y": 470.00,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"96771818435b097dc090\",\"layouts\":[{\"id\":0,\"position\":{\"x\":241.66666666666669,\"y\":55,\"z\":5000,\"width\":110,\"height\":48.333333333333336,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Fortalezas\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0.2}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48.33,
+          "width": 110.00,
+          "x": 241.67,
+          "y": 55.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"9770c80132fb69137037\",\"layouts\":[{\"id\":0,\"position\":{\"x\":118.33333333333334,\"y\":371.6666666666667,\"z\":3000,\"width\":338.33333333333337,\"height\":326.6666666666667,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0.4}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 326.67,
+          "width": 338.33,
+          "x": 118.33,
+          "y": 371.67,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"97bc86b883c314de88af\",\"layouts\":[{\"id\":0,\"position\":{\"x\":143.33333333333334,\"y\":446.6666666666667,\"z\":11000,\"width\":288.33333333333337,\"height\":215,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Poca diversidad de productos y el mercado se encuentra en constante crecimiento\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Falta de innovación tecnológica (página web)\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 215.00,
+          "width": 288.33,
+          "x": 143.33,
+          "y": 446.67,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"a61326ffc5afcb07ea63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":833.3333333333334,\"y\":35,\"z\":2000,\"width\":340,\"height\":325,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0.4}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.4}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 325.00,
+          "width": 340.00,
+          "x": 833.33,
+          "y": 35.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"a929c34b6d5def1cc094\",\"layouts\":[{\"id\":0,\"position\":{\"x\":110,\"y\":31.666666666666668,\"z\":1000,\"width\":355,\"height\":326.6666666666667,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}},\"selector\":{\"id\":\"default\"}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ED955E'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":0.4}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 326.67,
+          "width": 355.00,
+          "x": 110.00,
+          "y": 31.67,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"aa31f63debdc653c7431\",\"layouts\":[{\"id\":0,\"position\":{\"x\":865,\"y\":433.33333333333337,\"z\":12000,\"width\":280,\"height\":215,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Alta competencia con otras empresas mayoristas\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Afectación en la producción de frutas por el cambio climático\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 215.00,
+          "width": 280.00,
+          "x": 865.00,
+          "y": 433.33,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"bafcafbce2669ec79e10\",\"layouts\":[{\"id\":0,\"position\":{\"x\":926.6666666666667,\"y\":55,\"z\":6000,\"width\":156.66666666666669,\"height\":48.333333333333336,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Oportunidades\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48.33,
+          "width": 156.67,
+          "x": 926.67,
+          "y": 55.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"d22e4e99cf1083365dd8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":233.33333333333334,\"y\":406.6666666666667,\"z\":7000,\"width\":125,\"height\":40,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Debilidades\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 125.00,
+          "x": 233.33,
+          "y": 406.67,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"e76b34cef5c9768b9776\",\"layouts\":[{\"id\":0,\"position\":{\"x\":865,\"y\":103.33333333333334,\"z\":10000,\"width\":280,\"height\":220,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Diversificación de productos, además de ofrecer derivados de frutas (jaleas, jugos...etc)\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Implementar una página en línea para realizar pedidos \",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 280.00,
+          "x": 865.00,
+          "y": 103.33,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"f459f4f20a5ac81ed758\",\"layouts\":[{\"id\":0,\"position\":{\"x\":488.33333333333337,\"y\":148.33333333333334,\"z\":13000,\"width\":68.33333333333334,\"height\":128.33333333333334,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"F\",\"textStyle\":{\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"60pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 128.33,
+          "width": 68.33,
+          "x": 488.33,
+          "y": 148.33,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"f4a46b6bfd557a70f8c2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":143.33333333333334,\"y\":103.33333333333334,\"z\":9000,\"width\":288.33333333333337,\"height\":220,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Existe una buena relación con los clientes de la empresa\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Las frutas son frescas y de buena calidad\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 288.33,
+          "x": 143.33,
+          "y": 103.33,
+          "z": 9000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Parte 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "f628cb7ff58d61c13ff1",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1ab9a573dbb8d12e21d3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":994.8453608247423,\"y\":440.2061855670103,\"z\":4000,\"width\":280.41237113402065,\"height\":132.98969072164948,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Light'', wf_segoe-ui_light, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 132.99,
+          "width": 280.41,
+          "x": 994.85,
+          "y": 440.21,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"1dd282a51619a3e4e29a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":971.1340206185567,\"y\":3.0927835051546393,\"z\":3000,\"width\":255.6701030927835,\"height\":128.8659793814433,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Light'', wf_segoe-ui_light, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 128.87,
+          "width": 255.67,
+          "x": 971.13,
+          "y": 3.09,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"21336c4c237e30ead30a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":982.4742268041238,\"y\":310.30927835051546,\"z\":10000,\"width\":232.98969072164948,\"height\":97.93814432989691,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Al cliente se le genera y entrega una factura del pedido, y se recibe el pago en el método acordado con el cliente \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"11pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 97.94,
+          "width": 232.99,
+          "x": 982.47,
+          "y": 310.31,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"521c29332ee7e1ebb14f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":975.2577319587629,\"y\":583.5051546391753,\"z\":2000,\"width\":251.54639175257734,\"height\":131.95876288659795,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"25L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Light'', wf_segoe-ui_light, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 131.96,
+          "width": 251.55,
+          "x": 975.26,
+          "y": 583.51,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"585f7841dac203b66dad\",\"layouts\":[{\"id\":0,\"position\":{\"x\":994.8453608247423,\"y\":595.8762886597939,\"z\":12000,\"width\":220.61855670103094,\"height\":115.4639175257732,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Se confirma que el pedido llegó correctamente, se le solicita al cliente su opinión acerca del servicio en general,  sugerencias o comentarios de mejora   \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"11pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 115.46,
+          "width": 220.62,
+          "x": 994.85,
+          "y": 595.88,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"608fba395096bf1a0c0b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":1000,\"width\":308.33333333333337,\"height\":36.66666666666667,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Valeria Solís Monge '\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Light'', wf_segoe-ui_light, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"18D\"}}}},\"selector\":{\"id\":\"default\"}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#50A751'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 36.67,
+          "width": 308.33,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"623310adc4c25125bd64\",\"layouts\":[{\"id\":0,\"position\":{\"x\":972.1649484536083,\"y\":289.69072164948454,\"z\":6000,\"width\":254.63917525773198,\"height\":140.20618556701032,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Light'', wf_segoe-ui_light, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 140.21,
+          "width": 254.64,
+          "x": 972.16,
+          "y": 289.69,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"98a82d3c763896af9e1c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1015.4639175257732,\"y\":140.20618556701032,\"z\":5000,\"width\":259.7938144329897,\"height\":139.17525773195877,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Light'', wf_segoe-ui_light, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 139.18,
+          "width": 259.79,
+          "x": 1015.46,
+          "y": 140.21,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"a9963635117a6e2a3a07\",\"layouts\":[{\"id\":0,\"position\":{\"x\":998.9690721649484,\"y\":446.3917525773196,\"z\":11000,\"width\":280.41237113402065,\"height\":118.55670103092784,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Se prepara el pedido verificando siempre la calidad del producto, se coordina con el cliente si lo retira en el local o se le entrega a domicilio, siempre manteniendo los tiempos de entrega establecidos\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"11pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 118.56,
+          "width": 280.41,
+          "x": 998.97,
+          "y": 446.39,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"aa71f4002b6073067160\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1236.0824742268042,\"y\":664.9484536082474,\"z\":7000,\"width\":44.329896907216494,\"height\":50.51546391752577,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"5\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"20pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2F2DC'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 50.52,
+          "width": 44.33,
+          "x": 1236.08,
+          "y": 664.95,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"b9d92d7dc297a09b600a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1020.6185567010309,\"y\":161.8556701030928,\"z\":9000,\"width\":248.4536082474227,\"height\":95.87628865979381,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Luego se verifica si el cliente es fijo (se revisa el crédito existente) o nuevo (se le indican las formas de pago), para aprobar el pedido \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"11pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 95.88,
+          "width": 248.45,
+          "x": 1020.62,
+          "y": 161.86,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"cf55e5da6d73cf30da19\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":958.3333333333334,\"height\":720,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"1- \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\"Mi empresa se llama \",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\"Tropical Fruits VS \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\"y se dedica a la distribución de frutas frescas, de calidad y a muy buen precio.\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"2- \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"16pt\"}},{\"value\":\"Como competencia identificamos a la empresa \",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\"Frutica\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\", la cual cuenta con una amplia experiencia en este sector y se ha logrado consolidar en el mercado a través de los años. Esta empresa se ha adaptado a las tendencias del mercado y a las necesidades de los clientes con el paso del tiempo, con esto han ampliado la diversificación de los productos y han aumentado su presencia en páginas web o redes sociales. Estos aspectos son importantes a tomar en cuenta para que Tropical Fruits VS logre crecer en el mercado, ya que es una pequeña empresa con pocos productos pero con buenas estrategias puede crecer como lo hizo Frutica.\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"3-\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"16pt\"}}]},{\"textRuns\":[{\"value\":\"Promedio de tiempos de entrega; disminuir los tiempos de entrega para que el servicio sea eficiente y no existan inconvenientes con los clientes\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Satisfacción del cliente; evaluar la percepción del cliente acerca de la calidad de las frutas y el servicio como tal, así como sugerencias de mejora\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Ventas por tipo de fruta; determinar las frutas que tienen mayor demanda para la oferta de productos y temas de inventarios\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"4- \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"16pt\"}},{\"value\":\"La idea de Tropical Fruits VS es lograr llegar a los mercados nacionales ya que solo le distribuye a pequeñas tiendas de abarrotes y frutas. Se podría abordar ofreciendo muestras de las frutas en los principales mercados nacionales, con precios accesibles, tiempos de entrega eficientes, buen servicio al cliente y la capacidad para mover cantidades grandes de frutas. Además de tener presencia en redes sociales o generar una página web para hacer pedidos en línea.\",\"textStyle\":{\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"16pt\",\"color\":\"#000000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2F2DC'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 958.33,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ee0cb2d0076a162eee60\",\"layouts\":[{\"id\":0,\"position\":{\"x\":972.1649484536083,\"y\":19.587628865979383,\"z\":8000,\"width\":254.63917525773198,\"height\":94.84536082474227,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"El cliente hace un pedido por medio telefónico, se verifica la disponibilidad de las frutas solicitadas para continuar con el pedido\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe UI Light\",\"fontSize\":\"11pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#79D27E'\"}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 94.85,
+          "width": 254.64,
+          "x": 972.16,
+          "y": 19.59,
+          "z": 8000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

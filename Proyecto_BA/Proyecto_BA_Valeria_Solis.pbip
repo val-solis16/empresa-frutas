@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "artifacts": [
+    {
+      "report": {
+        "path": "Proyecto_BA_Valeria_Solis.Report"
+      }
+    }
+  ],
+  "settings": {
+    "enableAutoRecovery": true
+  }
+}

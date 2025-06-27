@@ -15,6 +15,8 @@ Proyecto_BA_Valeria_Solis.SemanticModel/ 🧩: Carpeta con la definición del mo
 
 README.md 📝: Documentación completa del proyecto (este archivo).
 
+Frutas.xlsx 📦: Archivo de Excel con el dataset de origen utilizado para el análisis.
+
 Proyecto_BA.pdf 📄: Versión estática del dashboard en PDF.
 
 _gitignore 🚫: Archivo para ignorar archivos de caché de Git.

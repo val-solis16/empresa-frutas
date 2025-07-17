@@ -1,6 +1,7 @@
-# empresa-frutas
+# business-Tropical Fruits VS
 
 Proyecto de Business Analytics: Análisis para Tropical Fruits VS 🍍📈
+
 Descripción del Proyecto
 Este proyecto de Business Analytics se centra en el análisis de datos para la empresa Tropical Fruits VS, dedicada a la distribución de frutas frescas de calidad. El objetivo es generar insights estratégicos a través de un dashboard interactivo en Power BI y análisis de negocio para optimizar operaciones y ventas.
 
